@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.itpLOL"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:icon="@drawable/icono"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".LeagueoflegendsActivity" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Menu"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            
+        </activity>
+        <activity android:name="Campeones"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            
+        </activity>
+        <activity android:name="campeones.Aatrox"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            
+        </activity>
+        <activity android:name="videoatrox.VideoPasiva"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            
+        </activity>
+        <activity android:name="videoatrox.VideoVuelo"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="videoatrox.VideoSed"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            
+        </activity>
+        <activity android:name="videoatrox.VideoEspada"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            
+        </activity>
+        <activity android:name="videoatrox.VideoMasacre"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            
+        </activity>
+        <activity android:name="contadorjungla.ContadorJungla"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
