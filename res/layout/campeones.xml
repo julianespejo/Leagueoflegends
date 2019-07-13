@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dedede" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/contenedorlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/contenedorspin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ordenar por:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnatrox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/atrox"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:onClick="aatrox"
+                android:text="Aatrox"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnahri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ahri"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Ahri"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnakali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/akali"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Akali"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnalistar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/alistar"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Alistar"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnamumu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/amumu"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Amumu"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnanivia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/anivia"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Anivia"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnannie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/annie"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Annie"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnashe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ashe"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Ashe"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnblit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/blitz"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Blitzcrank"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnbrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/brand"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Brand"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnbraum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/braum"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Braum"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btncaitlyn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/caitlyn"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Caitlyn"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btncassiopeia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/cassiopeia"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Cassiopeia"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnchogat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/chogath"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Cho&apos;Gath"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btncorki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/corki"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Corki"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btndarius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/darius"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Darius"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btndiana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/diana"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Diana"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btndrmundo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/drmundo"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Dr.Mundo"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btndraven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/draven"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Draven"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnElise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/elise"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Elise"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnevelynn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/evelynn"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Evelynn"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnesreal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ezreal"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Ezreal"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnfiddlestick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/fiddlesticks"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Fiddlestick"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnfiora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/fiora"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Fiora"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnfiss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/fizz"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Fizz"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btngalio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/galio"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Galio"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btngangplank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/gangplank"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Gangplank"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btngaren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/garen"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Garen"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btngragas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/gragas"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Gragas"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btngraves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/graves"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Graves"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnhecarim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/hecarim"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Hecarim"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnheirmerdinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/heimerdinger"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Heirmerdinger"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnirelia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/irelia"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Irelia"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnjanna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/janna"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Janna"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnjarvaniv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/jarvaniv"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Jarvan IV"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnjax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/jax"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Jax"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnjayce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/jayce"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Jayce"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnjinx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/jinx"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Jinx"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkarma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/karma"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Karma"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkarthus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/karthus"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Karthus"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkassadin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/kassadin"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Kassadin"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkatarina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/katarina"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Katarina"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkayle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/kayle"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Kayle"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkennen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/kennen"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Kennen"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkhazix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/khazix"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Kha&apos;Zix"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnkogmaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/kogmaw"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Kog&apos;Maw"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnleblanc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/leblanc"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="LeBlanc"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnleesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/leesin"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Lee Sin"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnleona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/leona"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Leona"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnlissandra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/lissandra"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Lissandra"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnlucian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/lucian"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Lucian"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnlulu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/lulu"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Lulu"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnlux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/lux"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Lux"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmaestroyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/masteryi"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Maestro Yi"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmalphite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/malphite"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Malphite"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmalsahar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/malzahar"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Malzahar"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmaokai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/maokai"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Maokai"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmissfortune"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/missfortune"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Miss Fortune"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmordekaiser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/mordekaiser"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Mordekaiser"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnmorgana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/morgana"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Morgana"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnami"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nami"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nami"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnasus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nasus"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nasus"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnautilus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nautilus"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nautilus"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnidalee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nidalee"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nidalee"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnocturne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nocturne"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nocturne"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnnunu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/nunu"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Nunu"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnolaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/olaf"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Olaf"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnorianna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/orianna"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Orianna"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnpantheon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/pantheon"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Pantheon"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnpoppy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/poppy"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Poppy"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnquinn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/quinn"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Quinn"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnrammus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/rammus"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Rammus"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnrenekton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/renekton"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Renekton"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnrengar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/rengar"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Rengar"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnriven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/riven"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Riven"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnrumble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/rumble"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Rumble"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnrise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ryze"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Rize"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsejuani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/sejuani"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Sejuani"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnshaco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/shaco"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Shaco"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnshen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/shen"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Shen"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnshyvana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/shyvana"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Shyvana"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsinged"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/singed"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Singed"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/sion"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Sion"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsivir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/sivir"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Sivir"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnskarner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/skarner"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Skarner"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/sona"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Sona"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsoraka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/soraka"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Soraka"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnswain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/swain"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Swain"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnsyndra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/syndra"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Syndra"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntalon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/talon"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Talon"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntaric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/taric"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Taric"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnteemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/teemo"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Teemo"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnthresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/thresh"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Thresh"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntristana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/tristana"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Tristana"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntrundle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/trundle"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Trundle"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntryndamare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/tryndamere"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Tryndamare"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntwistedfate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/twistedfate"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Twisted Fate"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btntwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/twitch"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Twitch"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnudyr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/udyr"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Udyr"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnurgot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/urgot"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Urgot"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvarus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/varus"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Varus"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvayne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/vayne"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Vayne"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnveigar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/veigar"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Veigar"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvelkos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/velkoz"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Vel&apos;Koz"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/vi"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Vi"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnviktor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/viktor"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Viktor"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvladimir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/vladimir"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Vladimir"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnvolibear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/volibear"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Volibear"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnwarwick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/warwick"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Warwick"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnwukong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/wukong"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Wukong"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnxerath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/xerath"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Xerath"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnxinzhao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/xinzhao"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Xin Zhao"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnyasuo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/yasuo"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Yasuo"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnyorick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/yorick"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Yorick"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnzac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/zac"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Zac"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnzed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/zed"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Zed"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnziggs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ziggs"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Ziggs"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnzilean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/zilean"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Zilean"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnzyra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/zyra"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="Zyra"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
